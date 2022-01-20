@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Youtube</title>
+        <script src="https://kit.fontawesome.com/13256cb18e.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/png" href="./img/favicon.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav id="navbar">
+            <div id="left_nav">
+                <a href=""><img src="./img/nav/list.png" alt="Make Video"></a>
+                <span id="logo">
+                    <img src="./img/favicon.png" alt="Youtube logo">
+                    <a href="">Youtube</a>
+                </span>
+            </div>
+            <div id="search">
+                <input type="text" placeholder="검색">
+                <button type="submit" onclick="alert('검색완료')"><img src="./img/nav/search.png" alt="검색"></button>
+            </div>
+            <div id="menu">
+                <a href=""><img src="./img/nav/VideoMake.png" alt="Make Video"></a>
+                <a href=""><img src="./img/nav/YoutubeApp.png" alt="Make Video"></a>
+                <a href=""><img src="./img/nav/bell.png" alt="Make Video"></a>
+                <a href=""><img src="./img/nav/user.png" alt="Make Video"></a>
+            </div>
+        </nav>
+        <div id="grid">
+            <!-- left UI -->
+            <div id="left_UI">
+                <!-- video player -->
+                <section id="player">
+                    <iframe src="https://www.youtube.com/embed/jQs1tfyvD2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <!-- video title -->
+                <section id="title"></section>
+                <!-- video description -->
+                <section id="description"></section>
+            </div>
+            <!-- right UI -->
+            <section id="another_video">
+                추천동영상
+            </section>
+        </div>
+    </body>
+</html>

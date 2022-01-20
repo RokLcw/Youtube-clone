@@ -1,0 +1,79 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    padding: 6px;
+}
+
+#navbar img {
+    height: 28px;
+}
+
+#logo {
+    padding-left: 18px;;
+}
+
+#logo a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#search {
+    height: 35px;
+    width: 650px;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+}
+
+#search input {
+    font-size: 16px;
+    width: 310px;
+    height: 25px;
+    padding: 5px;
+    border: 0px;
+    outline: none;
+    float: left;
+}
+
+#search button {
+    width: 64px;
+    height: 100%;
+    border: none;
+    border-left: 1px solid #cccccc;
+    float: right;
+    outline: none;
+}
+
+#search img {
+    width: 18px;
+    height: 18px;
+    padding-top: 4px;
+}
+
+#menu a {
+    padding: 8px;
+}
+
+#player {
+    text-align: center;
+    padding-top: 10px;
+    height: 700px;
+}
+
+#player iframe {
+    width: 95%;
+    height: 100%;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#another_video {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-right: 80px;
+}

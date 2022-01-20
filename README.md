@@ -1,5 +1,6 @@
 # Youtube 클론코딩
-HTML + CSS로 진행중. 
+HTML + CSS로 진행중.
+
 JavaScript와 반응형 디자인 추가 예정.
 
 진행상황

@@ -1,4 +1,4 @@
-# Youtube 클론코딩
+# Youtube 클론코딩 (Front-end)
 HTML + CSS로 진행중.
 
 JavaScript와 반응형 디자인 추가 예정.

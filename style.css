@@ -16,6 +16,11 @@ body {
     padding-right: 110px;
 }
 
+#navbar span {
+    display:inline-block;
+    height: 28px;
+}
+
 #navbar img {
     height: 28px;
 }
@@ -25,14 +30,17 @@ body {
 }
 
 #logo {
-    padding-left: 18px;;
+    padding-left: 18px;
 }
 
 #logo a {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: black;
+    position: relative;
+    top: -5px;
+    right: 2px;
 }
 
 #search {
@@ -94,4 +102,98 @@ body {
 #another_video {
     border: 1px solid black;
     margin-top: 10px;
+}
+
+#title {
+    margin-right: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#watch {
+    display: flex;
+    justify-content: space-between;
+}
+
+#title h1 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#watch h2 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#video_button i{
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+#video_button i span {
+    padding-left: 5px;
+    font-weight: normal;
+}
+
+#description {
+    margin-right: 30px;
+}
+
+#description_head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#channel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #000000;
+    flex-basis: 60px;
+}
+
+#channel_name {
+    padding-left: 20px;
+}
+
+#channel_name h1{
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#channel_name h2{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#channel_name p {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#channel_name h3 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #606060;
+}
+
+#description_head button{
+    width: 90px;
+    height: 40px;
+    background: #BE1309;
+    color: white;
+    border: 0;
+    border-radius: 2px;
 }

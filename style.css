@@ -246,18 +246,22 @@ body {
 
 #AD1_link h2{
     margin: 0;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: normal;
     padding-left: 5px;
     padding-right: 20px;
+    color: #606060;
 }
 
 .AD_tag {
     width: 30px;
     height: 20px;
     background: #F2C034;
+    color: #ffffff;
     flex-basis: 60px;
-    font-size: 14px;
+    font-size: 13px;
+    border-radius: 10%;
+    text-align: center;
 }
 
 .NULL {

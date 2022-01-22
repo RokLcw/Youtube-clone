@@ -13,6 +13,7 @@
 #navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 36px;
     padding: 15px;
     background-color: var(--color-white);
@@ -79,6 +80,7 @@ body {
     border-left: 1px solid var(--color-grey);;
     float: right;
     outline: none;
+    cursor: pointer;
 }
 
 #search img {
@@ -170,6 +172,7 @@ body {
     border-radius: 50%;
     background: var(--color-black);
     flex-basis: 60px;
+    cursor: pointer;
 }
 
 #channel_name {
@@ -180,6 +183,7 @@ body {
     margin: 0;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #channel_name h2{
@@ -198,6 +202,7 @@ body {
     font-size: 12px;
     font-weight: normal;
     color: var(--color-dark-grey);
+    cursor: pointer;
 }
 
 #description_head button{
@@ -207,6 +212,7 @@ body {
     color: var(--color-white);
     border: 0;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 #right_UI {
@@ -289,6 +295,7 @@ body {
     color: var(--color-white);
     border: 0;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 #recommend_video {
@@ -320,4 +327,22 @@ body {
     /* 위, 오른쪽, 아래, 왼쪽 */
     font-size: 12px;
     font-weight: normal;
+}
+
+@media(max-width : 1000px) {
+    #grid {
+        display: block;
+    }
+    body {
+        padding: 10px;
+    }
+    #recommend_video {
+        display: flex;
+        justify-content: flex-start;
+    }
+    #player {
+        text-align: left;
+        padding-top: 10px;
+        height: 500px;
+    }
 }

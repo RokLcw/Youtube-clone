@@ -1,9 +1,21 @@
+/* Global (변수) */
+:root {
+    /* Clor */
+    --color-light-grey: #E0E0E0;
+    --color-grey: #cccccc;
+    --color-dark-grey: #606060;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-blue: #3160D3;
+    --color-red: #BE1309;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
     height: 36px;
     padding: 15px;
-    background-color: #ffffff;
+    background-color: var(--color-white);
     position: fixed;
     top: 0;
     left: 0;
@@ -37,7 +49,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: var(--color-black);
     position: relative;
     top: -5px;
     right: 2px;
@@ -46,8 +58,8 @@ body {
 #search {
     height: 35px;
     width: 650px;
-    border: 1px solid #cccccc;
-    background: #ffffff;
+    border: 1px solid var(--color-grey);;
+    background: var(--color-white);;
 }
 
 #search input {
@@ -64,7 +76,7 @@ body {
     width: 64px;
     height: 100%;
     border: none;
-    border-left: 1px solid #cccccc;
+    border-left: 1px solid var(--color-grey);;
     float: right;
     outline: none;
 }
@@ -102,7 +114,7 @@ body {
 #title {
     margin-right: 30px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: 1px solid var(--color-light-grey);
 }
 
 #watch {
@@ -113,6 +125,8 @@ body {
 #title h1 {
     margin-top: 20px;
     margin-bottom: 15px;
+    /* margin: 20px 0px 15px 0px; */
+    /* 위, 오른쪽, 아래, 왼쪽 */
     font-size: 22px;
     font-weight: normal;
 }
@@ -135,7 +149,7 @@ body {
 
 #description {
     margin-right: 30px;
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: 1px solid var(--color-light-grey);
     padding-bottom: 10px;
 }
 
@@ -154,7 +168,7 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background: #000000;
+    background: var(--color-black);
     flex-basis: 60px;
 }
 
@@ -169,8 +183,8 @@ body {
 }
 
 #channel_name h2{
-    margin: 0;
-    margin-top: 5px;
+    margin: 5px 0px 0px 0px;
+    /* 위, 오른쪽, 아래, 왼쪽 */
     font-size: 12px;
     font-weight: normal;
 }
@@ -183,14 +197,14 @@ body {
 #channel_name h3 {
     font-size: 12px;
     font-weight: normal;
-    color: #606060;
+    color: var(--color-dark-grey);
 }
 
 #description_head button{
     width: 90px;
     height: 40px;
-    background: #BE1309;
-    color: white;
+    background: var(--color-red);
+    color: var(--color-white);
     border: 0;
     border-radius: 2px;
 }
@@ -200,7 +214,7 @@ body {
 }
 
 #AD1 {
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: 1px solid var(--color-light-grey);
     padding-bottom: 10px;
 }
 
@@ -225,7 +239,7 @@ body {
 .AD1_logo {
     width: 48px;
     height: 48px;
-    background: #000000;
+    background: var(--color-black);
 }
 
 #AD1_description {
@@ -250,14 +264,14 @@ body {
     font-weight: normal;
     padding-left: 5px;
     padding-right: 20px;
-    color: #606060;
+    color: var(--color-dark-grey);
 }
 
 .AD_tag {
     width: 30px;
     height: 20px;
     background: #F2C034;
-    color: #ffffff;
+    color: var(--color-white);
     flex-basis: 60px;
     font-size: 13px;
     border-radius: 10%;
@@ -271,8 +285,8 @@ body {
 #AD1 button {
     width: 110px;
     height: 40px;
-    background: #3160D3;
-    color: white;
+    background: var(--color-blue);
+    color: var(--color-white);
     border: 0;
     border-radius: 2px;
 }
@@ -295,15 +309,15 @@ body {
 }
 
 #recommend_description h2{
-    margin: 0;
-    margin-top: 5px;
+    margin: 5px 0px 0px 0px;
+    /* 위, 오른쪽, 아래, 왼쪽 */
     font-size: 12px;
     font-weight: normal;
 }
 
 #recommend_description h3{
-    margin: 0;
-    margin-top: 5px;
+    margin: 5px 0px 0px 0px;
+    /* 위, 오른쪽, 아래, 왼쪽 */
     font-size: 12px;
     font-weight: normal;
 }

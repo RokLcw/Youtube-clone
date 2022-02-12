@@ -15,4 +15,4 @@ JavaScript와 반응형 디자인 추가 예정.
 
 댓글 with node.js + MongoDB
 
-![image](https://user-images.githubusercontent.com/67365440/153709415-274c9631-bee5-413a-a539-47ece1bfd8ed.png)
+![image](https://user-images.githubusercontent.com/67365440/153711787-00b506e2-6e1f-4167-9606-95dd63b049ec.png)

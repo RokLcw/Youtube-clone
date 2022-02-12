@@ -77,16 +77,17 @@
                         </form>
                     </div>
                     <div id="read_comment">
-                        <%for (i=0; i<commentlist.length; i++) {%>
-                        <div class="circle"><img class="circle" src="./img/Channel_logo.png" alt=""></div>
+                        <% for (var i = 0; i < commentlist.length; i++) { %>
+                        <div class="circle"><img class="circle" src="./img/Channel_logo.png"></div>
                         <div>
-                            <div>name</div>
+                            <div><%= commentlist[i].name %></div>
                             <div><%= commentlist[i].comment %></div>
                             <br>
                         </div>
                         <% } %>
                     </div>
                 </section>
+                
             </div>
             <!-- right UI -->
             <section id="right_UI">
@@ -113,78 +114,17 @@
                         <img src="./img/AD/AD2" alt="">
                     </div> -->
                     <!-- 추천동영상 리스트 -->
-                    <div id="recommend_video">
-                        <img src="./img/recommend.png" alt="">
-                        <div id="recommend_description">
-                            <h1>고려의 마지막 충신 포은 선생 정몽주 VS 조선의 설계자 정도전</h1>
-                            <h2>SBS Catch</h2>
-                            <h3>조회수 18만회 · 8개월 전</h3>
+                    <%for (var i=0; i<11; i++) {%>
+                        <div id="recommend_video">
+                            <img src="./img/recommend.png" alt="">
+                            <div id="recommend_description">
+                                <h1>고려의 마지막 충신 포은 선생 정몽주 VS 조선의 설계자 정도전</h1>
+                                <h2>SBS Catch</h2>
+                                <h3>조회수 18만회 · 8개월 전</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div id="recommend_video">
-                        <img src="./img/recommend.png" alt="">
-                        <div id="recommend_description">
-                            <h1>고려의 마지막 충신 포은 선생 정몽주 VS 조선의 설계자 정도전</h1>
-                            <h2>SBS Catch</h2>
-                            <h3>조회수 18만회 · 8개월 전</h3>
-                        </div>
-                    </div>
-                    <div id="recommend_video">
-                        <img src="./img/recommend.png" alt="">
-                        <div id="recommend_description">
-                            <h1>고려의 마지막 충신 포은 선생 정몽주 VS 조선의 설계자 정도전</h1>
-                            <h2>SBS Catch</h2>
-                            <h3>조회수 18만회 · 8개월 전</h3>
-                        </div>
-                    </div>
-                    <div id="recommend_video">
-                        <img src="./img/recommend.png" alt="">
-                        <div id="recommend_description">
-                            <h1>고려의 마지막 충신 포은 선생 정몽주 VS 조선의 설계자 정도전</h1>
-                            <h2>SBS Catch</h2>
-                            <h3>조회수 18만회 · 8개월 전</h3>
-                        </div>
-                    </div>
-                    <div id="recommend_video">
-                        <img src="./img/recommend.png" alt="">
-                        <div id="recommend_description">
-                            <h1>고려의 마지막 충신 포은 선생 정몽주 VS 조선의 설계자 정도전</h1>
-                            <h2>SBS Catch</h2>
-                            <h3>조회수 18만회 · 8개월 전</h3>
-                        </div>
-                    </div>
-                    <div id="recommend_video">
-                        <img src="./img/recommend.png" alt="">
-                        <div id="recommend_description">
-                            <h1>고려의 마지막 충신 포은 선생 정몽주 VS 조선의 설계자 정도전</h1>
-                            <h2>SBS Catch</h2>
-                            <h3>조회수 18만회 · 8개월 전</h3>
-                        </div>
-                    </div>
-                    <div id="recommend_video">
-                        <img src="./img/recommend.png" alt="">
-                        <div id="recommend_description">
-                            <h1>고려의 마지막 충신 포은 선생 정몽주 VS 조선의 설계자 정도전</h1>
-                            <h2>SBS Catch</h2>
-                            <h3>조회수 18만회 · 8개월 전</h3>
-                        </div>
-                    </div>
-                    <div id="recommend_video">
-                        <img src="./img/recommend.png" alt="">
-                        <div id="recommend_description">
-                            <h1>고려의 마지막 충신 포은 선생 정몽주 VS 조선의 설계자 정도전</h1>
-                            <h2>SBS Catch</h2>
-                            <h3>조회수 18만회 · 8개월 전</h3>
-                        </div>
-                    </div>
-                    <div id="recommend_video">
-                        <img src="./img/recommend.png" alt="">
-                        <div id="recommend_description">
-                            <h1>고려의 마지막 충신 포은 선생 정몽주 VS 조선의 설계자 정도전</h1>
-                            <h2>SBS Catch</h2>
-                            <h3>조회수 18만회 · 8개월 전</h3>
-                        </div>
-                    </div>
+                    <% } %>
+                    
                 </div>
             </section>
         </div>

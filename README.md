@@ -11,7 +11,7 @@ JavaScript와 반응형 디자인 추가 예정.
 
 ![image](https://user-images.githubusercontent.com/67365440/150548857-102a20d4-02d3-4a62-b3bb-4d3044bbad98.png)
 
-<strong>2. 진행상황2 (2022.02.12)</strong>
+<strong>3. 진행상황2 (2022.02.12)</strong>
 
 댓글 with node.js + MongoDB
 

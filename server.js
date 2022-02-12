@@ -24,7 +24,10 @@ MongoClient.connect ('',function(error, client) {
 });
 
 app.get('/', (req, res) => {
-    res.render('index.ejs');
+    db.collection('Youtube_clone_comment').find().toArray((error, result) => {
+        console.log(result);
+        res.render('index.ejs', {list : result}); // 세미콜론을 쓰면 전송을 못함. 왜?? 도대체? 그게 이유가 아이었네?
+    });
 });
 
 app.post('/comment', (req, res) => {
@@ -42,12 +45,5 @@ app.post('/comment', (req, res) => {
                 res.send('전송완료');
             });
         });
-    });
-});
-
-app.get('/CommentList', (req, res) => {
-    db.collection('Youtube_clone_comment').find().toArray((error, result) => {
-        console.log(result);
-        res.render('index.ejs', {commentlist : result});
     });
 });
